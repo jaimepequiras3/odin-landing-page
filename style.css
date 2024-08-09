@@ -13,6 +13,7 @@ ul {
 }
 
 li {
+    font-size: 18px;
     padding: 12px;
 }
 
@@ -25,7 +26,7 @@ li {
     padding-right: 150px;
 }
 
-.header, .container-1 .big-title {
+.header-title, .container-1 .big-title {
     color: #f9faf8;
 }
 
@@ -34,12 +35,27 @@ li {
 }
 
 .header { 
-    font-size: 24px;
     padding: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
 
 .container-1 {
@@ -67,7 +83,7 @@ li {
 
 .content-1 button {
     display: block;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 .content-2 {
@@ -151,7 +167,7 @@ li {
     background-color: #e5e7eb;
 }
 
-.container-3 .qoute {
+.container-3 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
