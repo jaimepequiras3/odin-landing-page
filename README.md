@@ -3,3 +3,5 @@
 This project aims to showcase students gained knowledge and skills using the The Odin Project (www.theodinproject.com). Students are tasked to create a project using a formatted image of what the landing page would look like.
 
 Knowledge and skills that is being use are HTML and CSS only. Using element tags from HTML and CSS design manipulation.
+
+You can view the site using this link - https://jaimepequiras3.github.io/odin-landing-page/ .
